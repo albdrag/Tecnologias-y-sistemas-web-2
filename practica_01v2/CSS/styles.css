@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .pokemon-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .pokemon-card h4 {
+    font-size: 1rem;
+  }
+}
+
+.pokemon-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 5px auto;
+}
+
+
